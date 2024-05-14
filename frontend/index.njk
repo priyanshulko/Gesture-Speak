@@ -1,0 +1,29 @@
+---
+title: 'SignLanguage: Learn Sign language practically'
+layout: 'layouts/base.njk'
+---
+
+
+
+<section class="max-w-7xl mx-auto px-4 " >
+    <h1 class="py-6 rubik text-4xl font-bold" >Gesture Speak</h1>
+    {# cards #}
+    <div class="flex flex-wrap gap-4 mb-8">
+        {# import card from component folder #}
+        {% import 'components/cards.njk' as macro  %}
+
+        {{ macro.card('bg-[#72CAC3]','/app/playAlphabet-A-F/index.html','Alphabets A-F',' Alphabets from A-F in  chronological order with the help of artificial intelligence.','/assets/img/ABC.png') }}
+
+        {{ macro.card('bg-[#F9DBBB]','/app/playAlphabet-G-K/index.html','Alphabets G-K',' Alphabets from G-K in  chronological order with the help of artificial intelligence.','/assets/img/GHI.png') }}
+
+        
+        {{ macro.card('bg-[#FDD36A]','/app/playAlphabet-L-P/index.html',' Alphabets L-P','Alphabets from L-P in  chronological order with the help of artificial intelligence.','/assets/img/LMN.png') }}
+
+        
+
+        {{ macro.card('bg-[#9DC08B]','/app/playAlphabet-Q-U/index.html',' Alphabets Q-U','Alphabets from Q-U in  chronological order with the help of artificial intelligence.','/assets/img/QRS.png') }}
+
+        
+        {{ macro.card('bg-[#F7C8E0]','/app/playAlphabet-V-Z/index.html',' Alphabets V-Z','Alphabets from V-Z in  chronological order with the help of artificial intelligence.','/assets/img/VWX.png') }}
+
+</section>
